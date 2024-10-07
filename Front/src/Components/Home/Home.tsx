@@ -45,11 +45,14 @@ const Home: React.FC = () => {
   }, [letterIndex, deleting, currentPhraseIndex]);
 
   return (
-    <section id="Home" className="flex flex-wrap justify-between items-center bg-bg p-12 h-[850px] font-Lora">
+    <section
+      id="Home"
+      className="flex flex-wrap justify-between items-center bg-bg p-12 h-[850px] font-Lora"
+    >
       <div className="text-container w-full md:w-1/2 mb-10 md:mb-0">
         <p className="text-sm text-gray-400 mb-3">WELCOME TO MY WORLD</p>
         <h1 className="text-4xl md:text-5xl font-bold text-white leading-snug">
-          Meet <span className="text-primary">Annick NIYUBAHWE</span> <br /> a{" "}
+          Meet <span className="text-primary">Annick NIYUBAHWE</span>, <br /> a{" "}
           {displayedText}
         </h1>
         <p className="text-lg md:text-xl text-gray-300 mt-5 mb-10 max-w-xl">
@@ -62,20 +65,15 @@ const Home: React.FC = () => {
               Hire Me
             </button>
           </a>
-          <div className="text-center">
-            <p className="text-gray-400 text-sm mb-3 text-[15px]">BEST SKILL ON</p>
-            <ul className="flex gap-4 justify-center list-none">
-              <li>
-                <SiReact className="text-primary w-10 h-10 hover:scale-110 transition-transform duration-300 ml-auto" />
-              </li>
-              <li>
-                <FaJava className="text-primary w-10 h-10 hover:scale-110 transition-transform duration-300  ml-auto" />
-              </li>
-              <li>
-                <SiPython className="text-primary w-10 h-10 hover:scale-110 transition-transform duration-300  ml-auto" />
-              </li>
-            </ul>
-          </div>
+          <div className="flex flex-col items-center pl-4 md:pl-10 lg:pl-[500px]">
+  <p className="text-sm text-gray-500 mb-2">BEST SKILL ON</p>
+  <ul className="flex gap-2 list-none">
+    <SiReact className="w-8 h-8 sm:w-10 sm:h-10 text-primary transition-transform duration-300 hover:scale-125" />
+    <FaJava className="w-8 h-8 sm:w-10 sm:h-10 text-primary transition-transform duration-300 hover:scale-125" />
+    <SiPython className="w-8 h-8 sm:w-10 sm:h-10 text-primary transition-transform duration-300 hover:scale-125" />
+  </ul>
+</div>
+
         </div>
       </div>
     </section>

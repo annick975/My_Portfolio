@@ -17,19 +17,23 @@ const About: React.FC = () => {
         </div>
         <div className="text-white max-w-full md:w-1/2 md:ml-6 text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Who I Am?</h2>
-          <p className="text-base md:text-lg leading-7 mb-4">
-            I have huge enthusiasm for converting complex challenges into
-            innovative solutions in the cybersecurity and software development
-            sectors. Equipped with vast experience and knowledge of AI
-            technologies, I design intelligent applications that provide secure,
-            relevant, and effective digital experiences.
+          <p className="text-base md:text-lg leading-[30px] mb-4">
+            I specialize in cybersecurity, backend, and frontend development,
+            with a proven ability to create secure, scalable, and efficient
+            solutions. My passion lies in building robust architectures and
+            user-friendly interfaces that drive impactful digital experiences.
           </p>
-          <p className="text-base md:text-lg leading-7 mb-4">
-            Continuous skill development is crucial in the ever-evolving field
-            of technology. Let us together shape a more secure and efficient
-            digital future.
+          <p className="pt-[25px] text-base md:text-lg leading-[30px] mb-4">
+            Continuously evolving my technical expertise, I am committed to
+            delivering innovative solutions that address real-world challenges.
+            I am excited to collaborate with forward-thinking teams to develop
+            cutting-edge applications that prioritize both performance and
+            security.
           </p>
-          <p className="text-base md:text-lg mb-4">Want to know more about me?</p>
+
+          <p className="text-base md:text-lg mb-4">
+            Want to know more about me?
+          </p>
           <a
             href="https://drive.google.com/uc?export=download&id=1NBPm6id5PddqDk_TQeoqbyZzGePLhBlo"
             download="CV"

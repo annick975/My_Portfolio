@@ -49,13 +49,13 @@ const Footer: React.FC = () => {
       {/* Social Icons */}
       <div className="flex justify-center space-x-5 mb-5">
         <a href="mailto:niyubahwe.annick975@gmail.com" className="text-gray-400 hover:text-teal-500"><i className="fas fa-envelope"></i></a>
-        <a href="https://www.facebook.com/UwacuAnnick" target="_blank" className="text-gray-400 hover:text-teal-500"><i className="fab fa-facebook"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" className="text-gray-400 hover:text-teal-500"><i className="fab fa-facebook"></i></a>
         <a href="https://www.linkedin.com/in/annick-niyubahwe-04898932a/" target="_blank" className="text-gray-400 hover:text-teal-500"><i className="fab fa-linkedin"></i></a>
         <a href="https://discord.gg/4RNQ8QtQ" target="_blank" className="text-gray-400 hover:text-teal-500"><i className="fab fa-discord"></i></a>
         <a href="https://wa.me/250788999619" target="_blank" className="text-gray-400 hover:text-teal-500"><i className="fab fa-whatsapp"></i></a>
         <a href="https://www.instagram.com/n_tannick975/" target="_blank" className="text-gray-400 hover:text-teal-500"><i className="fab fa-instagram"></i></a>
         <a href="https://www.tiktok.com/@_a.n.nick_975" target="_blank" className="text-gray-400 hover:text-teal-500"><i className="fab fa-tiktok"></i></a>
-        <a href="https://x.com/yourUsername" target="_blank" className="text-gray-400 hover:text-teal-500"><i className="fab fa-twitter"></i></a>
+        <a href="https://x.com/" target="_blank" className="text-gray-400 hover:text-teal-500"><i className="fab fa-twitter"></i></a>
         <a href="https://github.com/annick975" target="_blank" className="text-gray-400 hover:text-teal-500"><i className="fab fa-github"></i></a>
       </div>
 
