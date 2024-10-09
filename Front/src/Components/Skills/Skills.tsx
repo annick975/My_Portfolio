@@ -66,7 +66,7 @@ const skillCategories: SkillCategory[] = [
 
 const Skills: React.FC = () => {
   return (
-    <div id="Skills" className="py-12 bg-bg text-center font-Lora">
+    <div id="Skills" className="py-12 bg-bg text-center font-Lora ">
       <h2 className="text-3xl font-bold text-white mb-10">Skills</h2>
       <div className="flex flex-wrap justify-around">
         {skillCategories.map((category, index) => (

@@ -13,8 +13,8 @@ const Projects: React.FC<ProjectCardProps> = ({ projectNames }) => {
       <div className="flex flex-wrap justify-between gap-5 w-full max-w-screen-xl">
         {projectNames.map((name, index) => (
           <div key={index} className="bg-bg2 rounded-lg p-8 flex items-center justify-between w-70 h-48 shadow-lg transform transition-transform duration-200 hover:-translate-y-1">
-            <span className="text-lg font-medium text-white">{name}</span>{" "}
-            <FiExternalLink className="text-gray-400 text-xl transition-colors duration-200 hover:text-white" />
+            <span className="text-lg font-medium text-white">{name}</span>{" "} <br />
+            <FiExternalLink className="text-gray-400 text-xl transition-colors duration-200 hover:text-white pl-[5px]" />
           </div>
         ))}
       </div>
